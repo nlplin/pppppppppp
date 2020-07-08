@@ -22,6 +22,8 @@ const Teacher = () => lazy(() => import("@pages/Edu/Teacher"));
 const Settings = () => lazy(() => import("@pages/User/Settings"));
 const Center = () => lazy(() => import("@pages/User/Center"));
 const Test = () => lazy(() => import("@pages/Edu/Test"));
+const Subject = () => lazy(() => import("@pages/Edu/Subject"));
+
 
 
 export default {
@@ -39,5 +41,6 @@ export default {
   Teacher,
   Settings,
   Center,
-  Test
+  Test,
+  Subject
 };
